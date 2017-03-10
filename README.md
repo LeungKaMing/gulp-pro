@@ -65,7 +65,7 @@ $ npm install --save-dev gulp-rev-collector
 ```
 
 ### gulpfile.js 内容如下
-```ecmascript 6
+```
 var gulp = require("gulp");
 var babel = require("gulp-babel");    // 用于ES6转化ES5
 var uglify = require('gulp-uglify'); // 用于压缩 JS
